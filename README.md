@@ -16,3 +16,5 @@ Game includes:
 *[ ] Add unit tests with elm-test package
 *[ ] Add menu with configurations
 *[ ] Close all enhancements in github.repo
+
+> This project was initially made, watching [this cool tutorial](https://www.youtube.com/watch?v=okt6-T0IiNI)
