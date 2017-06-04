@@ -26,14 +26,17 @@ Game includes:
     ├── Main.elm                        # Main tests elm module
     ├── Tests.elm                       # Elm Tests file 
     └── elm-package.json                # Elm Tests elm-package.json
-x
 ```
 
 ## Project todos:
 
 * [ ] Split the game code by files and modules
 * [ ] Add unit tests with elm-test package
-* [ ] Add menu with configurations
+* [ ] Add menu with game configurations
+* [ ] Add menu with game statistics
+* [ ] Add server support
+* [ ] Write server with node.js 
 * [ ] Close all enhancements in github.repo
 
-> This project was initially made, watching [this cool tutorial](https://www.youtube.com/watch?v=okt6-T0IiNI)
+> The initial version of this project was made,
+watching [this cool tutorial](https://www.youtube.com/watch?v=okt6-T0IiNI)
