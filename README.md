@@ -10,6 +10,25 @@ Game includes:
 
 > You can play the game on [github.pages](https://mikesaprykin.github.io/elm-snake-game/)
 
+## Project structure
+
+```
+.
+├── README.md                           # Project Readme
+├── docs                                # Github.pages deployment page
+│   └── index.html                      # Compiled elm file
+├── elm-package.json                    # Main elm-package.json file
+├── index.html                          # Compiled elm-live file
+├── package.json                        # Project npm package.json
+├── src                                 # Source files folder
+│   └── main.elm                        # Main elm module
+└── tests                               # Tests folder
+    ├── Main.elm                        # Main tests elm module
+    ├── Tests.elm                       # Elm Tests file 
+    └── elm-package.json                # Elm Tests elm-package.json
+x
+```
+
 ## Project todos:
 
 * [ ] Split the game code by files and modules
