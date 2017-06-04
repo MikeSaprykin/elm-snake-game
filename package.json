@@ -1,0 +1,29 @@
+{
+  "name": "elm-snake-game",
+  "version": "1.0.0",
+  "description": "Snake game developed on elm",
+  "main": "index.js",
+  "scripts": {
+    "test": "elm-test",
+    "start": "elm-live src/Main.elm --path-to-elm-make=node_modules/.bin/elm-make --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeSaprykin/elm-snake-game.git"
+  },
+  "keywords": [
+    "Elm",
+    "Snake",
+    "Game"
+  ],
+  "author": "Mike Saprykin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeSaprykin/elm-snake-game/issues"
+  },
+  "homepage": "https://github.com/MikeSaprykin/elm-snake-game#readme",
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "elm-live": "^2.7.4"
+  }
+}
