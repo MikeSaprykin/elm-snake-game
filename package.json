@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "elm-test",
-    "start": "elm-live src/Main.elm --path-to-elm-make=node_modules/.bin/elm-make --open"
+    "start": "elm-live src/Main.elm --path-to-elm-make=node_modules/.bin/elm-make --open",
+    "build": "elm-make src/Main.elm --output docs/index.html"
   },
   "repository": {
     "type": "git",
